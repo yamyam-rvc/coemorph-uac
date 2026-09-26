@@ -1,0 +1,425 @@
+{
+  "status": "SOURCE_PUBLICATION_AUTHORIZED_20260926_PRODUCT_ACCEPTANCE_INCOMPLETE",
+  "usb_source_commit": "94d80175a1a251bbb867f2ff52bd624c10f2f6ff",
+  "source_files": [
+    "src/cmd/coemorph-uac-host/main_windows.go",
+    "src/cmd/uac2-lab/main.go",
+    "src/cmd/vhci-control/main_windows.go",
+    "src/cmd/virtualcables/attach_stub.go",
+    "src/cmd/virtualcables/attach_windows.go",
+    "src/cmd/virtualcables/attach_windows_test.go",
+    "src/cmd/virtualcables/broker_windows.go",
+    "src/cmd/virtualcables/gui_stub.go",
+    "src/cmd/virtualcables/gui_windows.go",
+    "src/cmd/virtualcables/identity.go",
+    "src/cmd/virtualcables/identity_test.go",
+    "src/cmd/virtualcables/main.go",
+    "src/cmd/virtualcables/main_lifecycle_test.go",
+    "src/cmd/virtualcables/main_test.go",
+    "src/cmd/virtualcables/virtualcables.exe.manifest",
+    "src/go.mod",
+    "src/internal/audio/ring.go",
+    "src/internal/audio/ring_test.go",
+    "src/internal/hostsession/session.go",
+    "src/internal/hostsession/session_test.go",
+    "src/internal/uac1/descriptors.go",
+    "src/internal/uac1/descriptors_test.go",
+    "src/internal/uac1/device.go",
+    "src/internal/uac1/device_test.go",
+    "src/internal/uac1/uac2_lab.go",
+    "src/internal/uac1/uac2_lab_test.go",
+    "src/internal/usbip/protocol.go",
+    "src/internal/usbip/protocol_test.go",
+    "src/internal/usbip/server.go",
+    "src/internal/usbip/server_drain_test.go",
+    "src/internal/usbip/server_roundtrip_test.go",
+    "src/internal/usbip/server_test.go",
+    "src/internal/vhci/README.md",
+    "src/internal/vhci/client_windows.go",
+    "src/internal/vhci/testdata/attach_098.bin",
+    "src/internal/vhci/testdata/list_098.bin",
+    "src/internal/vhci/wire.go",
+    "src/internal/vhci/wire_test.go"
+  ],
+  "git_blob_comparison": {
+    "src/cmd/coemorph-uac-host/main_windows.go": {
+      "worktree_sha256": "17500FA774A4AAB087021EA15D87FB55760E19D5C5B18BBB49A626A3704B2818",
+      "git_blob_sha256": "17500FA774A4AAB087021EA15D87FB55760E19D5C5B18BBB49A626A3704B2818",
+      "relation": "BYTE_EQUAL"
+    },
+    "src/cmd/uac2-lab/main.go": {
+      "worktree_sha256": "F2BE97A0B2AA880BE6D7FF1BD1CE685AD99990FCAD6A336AE2BFE6BB104F6A5C",
+      "git_blob_sha256": "34B2EB3CDFE3B9774EF45AFEADB76C96A070C9FFC9EC1C81D2512A6DC8CCEB5C",
+      "relation": "CRLF_LF_ONLY"
+    },
+    "src/cmd/vhci-control/main_windows.go": {
+      "worktree_sha256": "63D80BDDA6F5BE530D11F8FA47833875628CDC74250F3CA16E0C40DB0FA3F27E",
+      "git_blob_sha256": "249A692FF63C2702452E10EC6F057ADA41A942BE5C63558BC17AFB4F0D24869D",
+      "relation": "CRLF_LF_ONLY"
+    },
+    "src/cmd/virtualcables/attach_stub.go": {
+      "worktree_sha256": "9B6480E5BA33B961775A229993659AF253C3BBDB52E5B4CEB5368F5B6976BDE8",
+      "git_blob_sha256": "4A6585853DC2DBECFF1BDA565A6D2FC62AAF05F27DE94A4A41F159D994DE45EA",
+      "relation": "CRLF_LF_ONLY"
+    },
+    "src/cmd/virtualcables/attach_windows.go": {
+      "worktree_sha256": "AC99B82227506D1CA7FE31A33C2CF4BF9C971CE2711F3DDC459A80241163ED66",
+      "git_blob_sha256": "1CF0CA55984FA2C907EB7839D064266964430F8DCFF960F2CE6A5796954AD024",
+      "relation": "CRLF_LF_ONLY"
+    },
+    "src/cmd/virtualcables/attach_windows_test.go": {
+      "worktree_sha256": "9E38DF783AF17C27BAA672957BD1353FE010D91EE1C45DEC1CECCF7E106EE268",
+      "git_blob_sha256": "269D4D5FC1F4290A45410218974549FE369B18B7865B8A1BCDCCF5784B1E74DF",
+      "relation": "CRLF_LF_ONLY"
+    },
+    "src/cmd/virtualcables/broker_windows.go": {
+      "worktree_sha256": "E433662195C4C509AE39263F73D7C9B09C7D456EC9CB5B95B42E70F95622EE75",
+      "git_blob_sha256": "6B4B020CDC5DA136CD9A4D8360D2C6FDF6961A477D17E3A432DCAC6BF3DA3FC9",
+      "relation": "CRLF_LF_ONLY"
+    },
+    "src/cmd/virtualcables/gui_stub.go": {
+      "worktree_sha256": "73B25A64219046BD31EE27D131DCC450634E929514333BB3F9C3C5A0FF043355",
+      "git_blob_sha256": "8EDB429328DE243451B8771067A5698A45D021CB1C4ADCF6456057B3B76D9660",
+      "relation": "CRLF_LF_ONLY"
+    },
+    "src/cmd/virtualcables/gui_windows.go": {
+      "worktree_sha256": "BC37FCC9D52D7ED16E3A911A35D9AFB992656A00E818964BBB2D55F60E7CA561",
+      "git_blob_sha256": "B7F47009B675892F4B5BB595511E611CE021ECD7E30D449C3E4E15CA15C55D14",
+      "relation": "CRLF_LF_ONLY"
+    },
+    "src/cmd/virtualcables/identity.go": {
+      "worktree_sha256": "A65737A5C8D039F6BDCE279EAC3BBFD214E30D64A03DD3342EE60EA4112B63D9",
+      "git_blob_sha256": "75CB9CE43DC6064223FCF9B58F32E34494F2212F60F9C2306FAEC50AF6ED6536",
+      "relation": "CRLF_LF_ONLY"
+    },
+    "src/cmd/virtualcables/identity_test.go": {
+      "worktree_sha256": "FDE55F317A05F60C60C8D17A7796575F10B5622E1E5DA10888D9E1B0C693E2E6",
+      "git_blob_sha256": "760C1458B730FD02A1218FE17F271090585E10B3BD55CF4F854123289D75933F",
+      "relation": "CRLF_LF_ONLY"
+    },
+    "src/cmd/virtualcables/main.go": {
+      "worktree_sha256": "F4385D823BE88E85840057D24D37D2CB4D72D707C8CB41399CCEC8EF8EDCAECB",
+      "git_blob_sha256": "4BEE15A6621CC5D4CC3C1B310ED66C9126B525F8A51FFBC15E3B154C30F6ABD8",
+      "relation": "CRLF_LF_ONLY"
+    },
+    "src/cmd/virtualcables/main_lifecycle_test.go": {
+      "worktree_sha256": "2C55A8C5F4C6EC17E759995892ED0F4AAF7D6BA40457E6B3E94A83EA7433A190",
+      "git_blob_sha256": "3A28ABE10AC36AC1595C42A0807A214F99E8A3C27478D90B66B0382C229BB981",
+      "relation": "CRLF_LF_ONLY"
+    },
+    "src/cmd/virtualcables/main_test.go": {
+      "worktree_sha256": "642966554443891BF997062EC1C94D73639E850B36B56C3711D61158E7774755",
+      "git_blob_sha256": "E0C87EC8C6F12AA83DA26011B829F8D8385E49AF1358E095CB46692067D5B8A3",
+      "relation": "CRLF_LF_ONLY"
+    },
+    "src/cmd/virtualcables/virtualcables.exe.manifest": {
+      "worktree_sha256": "65EFE3D1319CB4BA4432FC65F9752A0E4BEF0E5B80A5EB338222E73240942B2B",
+      "git_blob_sha256": "C57FE6B127B64F3A23CF6F5D53A79BF1657E8A52BFAB1D589CF0890E60A96553",
+      "relation": "CRLF_LF_ONLY"
+    },
+    "src/go.mod": {
+      "worktree_sha256": "70E34BD01C7CF02D96C6D786EA93E5841DA4237DDC7C84530DA1324B264D7AA9",
+      "git_blob_sha256": "B929C6F1D7F519DC158015DE3652A4148287B67EFD1AD012676A9358FDDDA8D5",
+      "relation": "CRLF_LF_ONLY"
+    },
+    "src/internal/audio/ring.go": {
+      "worktree_sha256": "50F9924D43947F4E85A64FF79C3D0C95AC42367EB0740A0860BB99015349AD39",
+      "git_blob_sha256": "CEADD4E392987D1AB01A11A8A87650383D30CA901A0919828B0E7C9F75AB36C0",
+      "relation": "CRLF_LF_ONLY"
+    },
+    "src/internal/audio/ring_test.go": {
+      "worktree_sha256": "C3F4102998B65F1EC75A281C6F4553F8D126D0BD42AF3D205F32AB808C56C449",
+      "git_blob_sha256": "0480A549D24CEBB1DE762C429AA584AD75B01681E69F2A3CD3D2A392BE2448E6",
+      "relation": "CRLF_LF_ONLY"
+    },
+    "src/internal/hostsession/session.go": {
+      "worktree_sha256": "EBC33B6873AE88289B25212102EE6F1E2A65E830D54A39EC96F920048830C2A9",
+      "git_blob_sha256": "EBC33B6873AE88289B25212102EE6F1E2A65E830D54A39EC96F920048830C2A9",
+      "relation": "BYTE_EQUAL"
+    },
+    "src/internal/hostsession/session_test.go": {
+      "worktree_sha256": "70909B306A952290028B70D236AF1CBE750830CE3D4F1E85FBCD3F42B662487F",
+      "git_blob_sha256": "70909B306A952290028B70D236AF1CBE750830CE3D4F1E85FBCD3F42B662487F",
+      "relation": "BYTE_EQUAL"
+    },
+    "src/internal/uac1/descriptors.go": {
+      "worktree_sha256": "24D28874EA38C5ED213AD7810BDF3F3DB37A17C1E513B036ED019FD32941C5B3",
+      "git_blob_sha256": "9919194540CE014720437CCAC7975487EFECF8792A595E3ADE56BCD2E08E0296",
+      "relation": "CRLF_LF_ONLY"
+    },
+    "src/internal/uac1/descriptors_test.go": {
+      "worktree_sha256": "3A7BAE8E26A11D7620A1FFEC80367A35DD73CFAD897C92BE226539B5407A281F",
+      "git_blob_sha256": "98B6C27F94F509BFF1D2FCF2A1DA252ED145866403E3240EBFD2FEDF9F058976",
+      "relation": "CRLF_LF_ONLY"
+    },
+    "src/internal/uac1/device.go": {
+      "worktree_sha256": "456A2571060D8FB25EAB2442AA3A3247E4F73F616CE75A894BB22D9C5959EE3F",
+      "git_blob_sha256": "62BE775641038DEEE31FEC1CA3719BDD7D0271EF90B61859BBD2F5911FC91BF2",
+      "relation": "CRLF_LF_ONLY"
+    },
+    "src/internal/uac1/device_test.go": {
+      "worktree_sha256": "760CE8D7BD6E7DDA7C4F0A6CEB8496084BABB05B2C34074D76779CDFFD9EF8EE",
+      "git_blob_sha256": "3A9B1EF35720EE539461E107603CB4138EA042F9359B3046A294A3D5E64B547F",
+      "relation": "CRLF_LF_ONLY"
+    },
+    "src/internal/uac1/uac2_lab.go": {
+      "worktree_sha256": "4F05A300795B4F66544EEB4FEDE2668E76ACA4B4891A90DC4520047AB08E4882",
+      "git_blob_sha256": "4F05A300795B4F66544EEB4FEDE2668E76ACA4B4891A90DC4520047AB08E4882",
+      "relation": "BYTE_EQUAL"
+    },
+    "src/internal/uac1/uac2_lab_test.go": {
+      "worktree_sha256": "194D994A9B98D03AC8E281B5E861D7B9A1DC742E09F3AA34364F320D110C0131",
+      "git_blob_sha256": "7E31477E1650736E414A127F517B7FE5B82004F40B46B0BA720BB4219F19DE99",
+      "relation": "CRLF_LF_ONLY"
+    },
+    "src/internal/usbip/protocol.go": {
+      "worktree_sha256": "12928B8426EB2C0005866C3423D38C9E8E052F61CB483D7BB6CF993E04A59329",
+      "git_blob_sha256": "E464FE5E5A7E1E21944DA3B1A5033F33C34D899EA8A507917F40675BA2614D27",
+      "relation": "CRLF_LF_ONLY"
+    },
+    "src/internal/usbip/protocol_test.go": {
+      "worktree_sha256": "6CF08BAE6D164CCCD6C9E42D6854085F079DFF66B9BC8F717DFBC6607032AD3C",
+      "git_blob_sha256": "22337A2D71C766E3DDEA5B357A88AA40B086E01C23A8630F0FB82486A103F80D",
+      "relation": "CRLF_LF_ONLY"
+    },
+    "src/internal/usbip/server.go": {
+      "worktree_sha256": "C0B308572A1D854D682F587648127934994F74E3482DCA062EFCAC7DA80A2FB0",
+      "git_blob_sha256": "7F7EA9481D2E07E9E10A341E2C399C8128B832C5E144CF348293BCE27EFBE334",
+      "relation": "CRLF_LF_ONLY"
+    },
+    "src/internal/usbip/server_drain_test.go": {
+      "worktree_sha256": "6227A163E26620FEF93D8D410F28B2801512808A2E16A7ADFFF27E3B2CC32C9F",
+      "git_blob_sha256": "ADD4B625161D3206E418C96BAE80A61CFE72FEB0D28206BEA752957F99C68C11",
+      "relation": "CRLF_LF_ONLY"
+    },
+    "src/internal/usbip/server_roundtrip_test.go": {
+      "worktree_sha256": "F39509CB699279F8131D89082AC40DE6DB4A423BFAE96DA8DF1394BEF63D63AA",
+      "git_blob_sha256": "DB6CD68873466E4765AAAEFF91BB815D88056C3356D7279156B31EF92297C83A",
+      "relation": "CRLF_LF_ONLY"
+    },
+    "src/internal/usbip/server_test.go": {
+      "worktree_sha256": "C20A138D8BAAB40A28B6BF9AA347B1FE6DDF279127CCDCCEA62E25934CE1E22A",
+      "git_blob_sha256": "055ADBF996FCE4E0DE26A7519706BD48488AF94B13C284FBAA2E46B39297F588",
+      "relation": "CRLF_LF_ONLY"
+    },
+    "src/internal/vhci/README.md": {
+      "worktree_sha256": "ECA72676814619F339599B4FB38E8992869CDA6CBD22B2C5C26A2E20FBC5B8C4",
+      "git_blob_sha256": "B05DA3CB9663C0C851377D041F4D4E4948E2866CBA9AE570E7BE47AF672C0FF4",
+      "relation": "CRLF_LF_ONLY"
+    },
+    "src/internal/vhci/client_windows.go": {
+      "worktree_sha256": "F31A1A6648745AC032BC79E65292E6F16B63B03393AD6C9193CB39CA287D09B4",
+      "git_blob_sha256": "B40C926B11AAB68151E2F05C3E09DA5FF93FE884477F0443A90AD411E0C0EC6D",
+      "relation": "CRLF_LF_ONLY"
+    },
+    "src/internal/vhci/testdata/attach_098.bin": {
+      "worktree_sha256": "9646D9D755697B583792B33878E11A885AA283C3C071B48EE0A09294D7FF8B18",
+      "git_blob_sha256": "9646D9D755697B583792B33878E11A885AA283C3C071B48EE0A09294D7FF8B18",
+      "relation": "BYTE_EQUAL"
+    },
+    "src/internal/vhci/testdata/list_098.bin": {
+      "worktree_sha256": "07806097B33324A340A54F9CF50C15D2152A7C034B82782B5FDABF0910B55B54",
+      "git_blob_sha256": "07806097B33324A340A54F9CF50C15D2152A7C034B82782B5FDABF0910B55B54",
+      "relation": "BYTE_EQUAL"
+    },
+    "src/internal/vhci/wire.go": {
+      "worktree_sha256": "3BC1D02D6B4053512A24B1FBC5263ED54715914D5FA204A837FC5D44FD47B902",
+      "git_blob_sha256": "6AE2E16CB69BF518CF4B9EDF81DC2B6FFF6C227366E2EF74AAA712F0C60C44CF",
+      "relation": "CRLF_LF_ONLY"
+    },
+    "src/internal/vhci/wire_test.go": {
+      "worktree_sha256": "EDBE352DE3E5C90D85A13125AEB8D695385DA98E30160DB2831154F96000AA58",
+      "git_blob_sha256": "806775EDB2314AF53D98E7221B0099FEC0A859807603A4623FDF02CF124797A6",
+      "relation": "CRLF_LF_ONLY"
+    }
+  },
+  "original_virtual_cables_commit": "5c0a4f75d41a85691912f0640ecac26045e923ed",
+  "usbip_abi_commit": "83bd1f781d57ed6efdf15530c55710cf5d4482bc",
+  "files": {
+    "BUILD_VALIDATION.json": {
+      "sha256": "AD71324104D2FC29AACD6583176094F7EA0170F893839DEBB8BE295743A6EDA9",
+      "bytes": 1205
+    },
+    "LICENSE": {
+      "sha256": "73E5A217DE5103E996AF7058A136FD7EC797DF0A5C6C39E3EDFA386A773EA928",
+      "bytes": 1353
+    },
+    "LICENSE.Go.txt": {
+      "sha256": "911F8F5782931320F5B8D1160A76365B83AEA6447EE6C04FA6D5591467DB9DAD",
+      "bytes": 1453
+    },
+    "LICENSE.txt": {
+      "sha256": "73E5A217DE5103E996AF7058A136FD7EC797DF0A5C6C39E3EDFA386A773EA928",
+      "bytes": 1353
+    },
+    "LICENSE.usbip-win2.txt": {
+      "sha256": "4A4D332CBF1C623639DF7FFC756243D86462BEB4C79C8B11081CB44A4792EDA2",
+      "bytes": 1356
+    },
+    "README.md": {
+      "sha256": "CDCC7CBFA43F2E639A20F5702CFF29E3EED2029ED1D345909FA54297FB4BDF49",
+      "bytes": 3961
+    },
+    "VALIDATION.md": {
+      "sha256": "A1C9BED8FB15CA9758E899444182FC608FCA532931E3647613E30BE3CBF417CA",
+      "bytes": 3325
+    },
+    "src/cmd/coemorph-uac-host/main_windows.go": {
+      "sha256": "17500FA774A4AAB087021EA15D87FB55760E19D5C5B18BBB49A626A3704B2818",
+      "bytes": 1814
+    },
+    "src/cmd/uac2-lab/main.go": {
+      "sha256": "F2BE97A0B2AA880BE6D7FF1BD1CE685AD99990FCAD6A336AE2BFE6BB104F6A5C",
+      "bytes": 831
+    },
+    "src/cmd/vhci-control/main_windows.go": {
+      "sha256": "63D80BDDA6F5BE530D11F8FA47833875628CDC74250F3CA16E0C40DB0FA3F27E",
+      "bytes": 2917
+    },
+    "src/cmd/virtualcables/attach_stub.go": {
+      "sha256": "9B6480E5BA33B961775A229993659AF253C3BBDB52E5B4CEB5368F5B6976BDE8",
+      "bytes": 352
+    },
+    "src/cmd/virtualcables/attach_windows.go": {
+      "sha256": "AC99B82227506D1CA7FE31A33C2CF4BF9C971CE2711F3DDC459A80241163ED66",
+      "bytes": 6126
+    },
+    "src/cmd/virtualcables/attach_windows_test.go": {
+      "sha256": "9E38DF783AF17C27BAA672957BD1353FE010D91EE1C45DEC1CECCF7E106EE268",
+      "bytes": 1929
+    },
+    "src/cmd/virtualcables/broker_windows.go": {
+      "sha256": "E433662195C4C509AE39263F73D7C9B09C7D456EC9CB5B95B42E70F95622EE75",
+      "bytes": 7164
+    },
+    "src/cmd/virtualcables/gui_stub.go": {
+      "sha256": "73B25A64219046BD31EE27D131DCC450634E929514333BB3F9C3C5A0FF043355",
+      "bytes": 196
+    },
+    "src/cmd/virtualcables/gui_windows.go": {
+      "sha256": "BC37FCC9D52D7ED16E3A911A35D9AFB992656A00E818964BBB2D55F60E7CA561",
+      "bytes": 28820
+    },
+    "src/cmd/virtualcables/identity.go": {
+      "sha256": "A65737A5C8D039F6BDCE279EAC3BBFD214E30D64A03DD3342EE60EA4112B63D9",
+      "bytes": 2660
+    },
+    "src/cmd/virtualcables/identity_test.go": {
+      "sha256": "FDE55F317A05F60C60C8D17A7796575F10B5622E1E5DA10888D9E1B0C693E2E6",
+      "bytes": 2235
+    },
+    "src/cmd/virtualcables/main.go": {
+      "sha256": "F4385D823BE88E85840057D24D37D2CB4D72D707C8CB41399CCEC8EF8EDCAECB",
+      "bytes": 11871
+    },
+    "src/cmd/virtualcables/main_lifecycle_test.go": {
+      "sha256": "2C55A8C5F4C6EC17E759995892ED0F4AAF7D6BA40457E6B3E94A83EA7433A190",
+      "bytes": 920
+    },
+    "src/cmd/virtualcables/main_test.go": {
+      "sha256": "642966554443891BF997062EC1C94D73639E850B36B56C3711D61158E7774755",
+      "bytes": 1086
+    },
+    "src/cmd/virtualcables/virtualcables.exe.manifest": {
+      "sha256": "65EFE3D1319CB4BA4432FC65F9752A0E4BEF0E5B80A5EB338222E73240942B2B",
+      "bytes": 731
+    },
+    "src/go.mod": {
+      "sha256": "70E34BD01C7CF02D96C6D786EA93E5841DA4237DDC7C84530DA1324B264D7AA9",
+      "bytes": 33
+    },
+    "src/internal/audio/ring.go": {
+      "sha256": "50F9924D43947F4E85A64FF79C3D0C95AC42367EB0740A0860BB99015349AD39",
+      "bytes": 1823
+    },
+    "src/internal/audio/ring_test.go": {
+      "sha256": "C3F4102998B65F1EC75A281C6F4553F8D126D0BD42AF3D205F32AB808C56C449",
+      "bytes": 777
+    },
+    "src/internal/hostsession/session.go": {
+      "sha256": "EBC33B6873AE88289B25212102EE6F1E2A65E830D54A39EC96F920048830C2A9",
+      "bytes": 4424
+    },
+    "src/internal/hostsession/session_test.go": {
+      "sha256": "70909B306A952290028B70D236AF1CBE750830CE3D4F1E85FBCD3F42B662487F",
+      "bytes": 5253
+    },
+    "src/internal/uac1/descriptors.go": {
+      "sha256": "24D28874EA38C5ED213AD7810BDF3F3DB37A17C1E513B036ED019FD32941C5B3",
+      "bytes": 6527
+    },
+    "src/internal/uac1/descriptors_test.go": {
+      "sha256": "3A7BAE8E26A11D7620A1FFEC80367A35DD73CFAD897C92BE226539B5407A281F",
+      "bytes": 3178
+    },
+    "src/internal/uac1/device.go": {
+      "sha256": "456A2571060D8FB25EAB2442AA3A3247E4F73F616CE75A894BB22D9C5959EE3F",
+      "bytes": 7583
+    },
+    "src/internal/uac1/device_test.go": {
+      "sha256": "760CE8D7BD6E7DDA7C4F0A6CEB8496084BABB05B2C34074D76779CDFFD9EF8EE",
+      "bytes": 5258
+    },
+    "src/internal/uac1/uac2_lab.go": {
+      "sha256": "4F05A300795B4F66544EEB4FEDE2668E76ACA4B4891A90DC4520047AB08E4882",
+      "bytes": 4124
+    },
+    "src/internal/uac1/uac2_lab_test.go": {
+      "sha256": "194D994A9B98D03AC8E281B5E861D7B9A1DC742E09F3AA34364F320D110C0131",
+      "bytes": 4028
+    },
+    "src/internal/usbip/protocol.go": {
+      "sha256": "12928B8426EB2C0005866C3423D38C9E8E052F61CB483D7BB6CF993E04A59329",
+      "bytes": 5205
+    },
+    "src/internal/usbip/protocol_test.go": {
+      "sha256": "6CF08BAE6D164CCCD6C9E42D6854085F079DFF66B9BC8F717DFBC6607032AD3C",
+      "bytes": 2580
+    },
+    "src/internal/usbip/server.go": {
+      "sha256": "C0B308572A1D854D682F587648127934994F74E3482DCA062EFCAC7DA80A2FB0",
+      "bytes": 17284
+    },
+    "src/internal/usbip/server_drain_test.go": {
+      "sha256": "6227A163E26620FEF93D8D410F28B2801512808A2E16A7ADFFF27E3B2CC32C9F",
+      "bytes": 3895
+    },
+    "src/internal/usbip/server_roundtrip_test.go": {
+      "sha256": "F39509CB699279F8131D89082AC40DE6DB4A423BFAE96DA8DF1394BEF63D63AA",
+      "bytes": 4148
+    },
+    "src/internal/usbip/server_test.go": {
+      "sha256": "C20A138D8BAAB40A28B6BF9AA347B1FE6DDF279127CCDCCEA62E25934CE1E22A",
+      "bytes": 9893
+    },
+    "src/internal/vhci/README.md": {
+      "sha256": "ECA72676814619F339599B4FB38E8992869CDA6CBD22B2C5C26A2E20FBC5B8C4",
+      "bytes": 2197
+    },
+    "src/internal/vhci/client_windows.go": {
+      "sha256": "F31A1A6648745AC032BC79E65292E6F16B63B03393AD6C9193CB39CA287D09B4",
+      "bytes": 6884
+    },
+    "src/internal/vhci/testdata/attach_098.bin": {
+      "sha256": "9646D9D755697B583792B33878E11A885AA283C3C071B48EE0A09294D7FF8B18",
+      "bytes": 1120
+    },
+    "src/internal/vhci/testdata/list_098.bin": {
+      "sha256": "07806097B33324A340A54F9CF50C15D2152A7C034B82782B5FDABF0910B55B54",
+      "bytes": 1132
+    },
+    "src/internal/vhci/wire.go": {
+      "sha256": "3BC1D02D6B4053512A24B1FBC5263ED54715914D5FA204A837FC5D44FD47B902",
+      "bytes": 3389
+    },
+    "src/internal/vhci/wire_test.go": {
+      "sha256": "EDBE352DE3E5C90D85A13125AEB8D695385DA98E30160DB2831154F96000AA58",
+      "bytes": 2925
+    }
+  },
+  "build_of_this_draft": "PASS_PACKAGE_TESTS_VET_BUILD_ONLY; binary not executed",
+  "product_release_approved": false,
+  "pid_allocated": false,
+  "prior_manifest_sha256": "DB0C6009224400AF9063D39911117A3DA554320EE70022CDCB2D74CD61EC639A",
+  "prior_checked_manifest_sha256": "7D514C7EFFCB6FA5A417DBD332965419E279A0F48302299B8B71D6847DCD233D"
+}

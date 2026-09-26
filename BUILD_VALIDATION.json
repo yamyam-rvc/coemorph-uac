@@ -1,0 +1,30 @@
+{
+  "scope": "Complete remaining two source-test packages, vet and build; no USB host execution or product/audio acceptance",
+  "status": "PASS_PACKAGE_TESTS_VET_BUILD_ONLY",
+  "test_package_count": 6,
+  "passed_named_tests_including_subtests": 71,
+  "passed_test_packages": [
+    "virtualcables/cmd/virtualcables",
+    "virtualcables/internal/audio",
+    "virtualcables/internal/hostsession",
+    "virtualcables/internal/uac1",
+    "virtualcables/internal/usbip",
+    "virtualcables/internal/vhci"
+  ],
+  "initial_all_package_timeout_preserved": true,
+  "completed_packages_not_repeated": [
+    "virtualcables/cmd/virtualcables",
+    "virtualcables/internal/audio",
+    "virtualcables/internal/hostsession",
+    "virtualcables/internal/uac1"
+  ],
+  "private_receipt_sha256": "C1B0B4A664728C85404DCA1BB5085605DD803BBC549AB781CBCF06ACDE93581A",
+  "tested_source_manifest_sha256": "DB0C6009224400AF9063D39911117A3DA554320EE70022CDCB2D74CD61EC639A",
+  "binary_sha256": "6422A4A109842A58D7D0DD7595A711F810D8306B1B4D5896DB9A2CFD536B9569",
+  "binary_bytes": 4587008,
+  "binary_executed": false,
+  "product_changed": false,
+  "compiler": "go1.26.5 windows/amd64",
+  "CGO_ENABLED": "0",
+  "vcs_stamping": false
+}
