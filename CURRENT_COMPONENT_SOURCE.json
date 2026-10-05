@@ -1,0 +1,27 @@
+{
+  "schema": 1,
+  "component": "Coemorph USB Audio UAC2",
+  "license": "BSD-2-Clause",
+  "allocated_vid_pid": "1209:C0E0",
+  "allocation_url": "https://pid.codes/1209/C0E0/",
+  "allocation_pr": "https://github.com/pidcodes/pidcodes.github.com/pull/1287",
+  "source_archive": "Coemorph_USB_Audio_Source_1209_C0E0.zip",
+  "source_archive_sha256": "E004546BBDD4359071C3040839E67BCE4607F351DEEDF6EF8A68C44DCC164F62",
+  "source_archive_bytes": 74556,
+  "source_files": 43,
+  "archive_entries": 50,
+  "corresponding_host_sha256": "06E1F24A04DB0796A0558815D089DFA05AF5AA8B73394DC75B296E29E1AB73AA",
+  "toolchain": "go1.26.5 windows/amd64",
+  "cgo_enabled": false,
+  "retained_component_validation": {
+    "package_passes": 6,
+    "named_test_pass_events": 89,
+    "vet_exit": 0,
+    "build_exit": 0,
+    "initial_outer_deadline_preserved": true
+  },
+  "historical_root_source_commit": "4562aada25ea3c99d42197d55ddd4d9628ede3c9",
+  "product_acceptance": false,
+  "usb_if_certification": false,
+  "voice_application_models_driver_binaries_included": false
+}
